@@ -129,7 +129,7 @@ const payment = document.querySelector(".payment");
 const close = document.querySelector(".close");
 
 productButton.addEventListener("click", () => {
-  payment.style.display = "flex";
+  window.location.href="./checkout.html"
 });
 
 close.addEventListener("click", () => {
