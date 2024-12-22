@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 // This test secret API key is a placeholder. Don't include personal details in requests with this key.
 // To see your test secret API key embedded in code samples, sign in to your Stripe account.
 // You can also find your test secret API key at https://dashboard.stripe.com/test/apikeys.
-const stripe = require('stripe')('sk_test_09l3shTSTKHYCzzZZsiLl2vA');
+const stripe = require('stripe')('sk_test_51NnseUFlHVwskreyfxDH22ZlbgU2cWBtib2Jd5IaZ9biwNX6WxlKra16ltVVZYCqRPusfO7I2YYEStRAwPto32UN002iGSNwpf');
 
 const YOUR_DOMAIN = 'https://3000-martymcnutt-stripestore-ejzp6vynt57.ws-us117.gitpod.io/';
 
